@@ -29,8 +29,7 @@ body {
   font-weight: 400;
   font-style: normal;
   position: relative;
-
-  height: 100%;
+  overflow-x: hidden;
 
 
   background: linear-gradient(180deg, #190131 0%, #282B96 100%);

@@ -5,10 +5,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    max-width: 1216px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .middle-box {
-    width: 592px;
+    width: 100%;
+    max-width: 592px;
     height: 500px;
 
     border-radius: 72px;
