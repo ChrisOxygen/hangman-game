@@ -1,9 +1,12 @@
 .main-container {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+ height: auto;
     background-image: url(../../assets/images/background-desktop.svg);
     background-position: center center;
     background-size: cover;
+
+    position: relative;
 
     @media only screen and (max-width: 1270px) {
 

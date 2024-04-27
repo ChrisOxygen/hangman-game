@@ -30,7 +30,7 @@ body {
   font-style: normal;
   position: relative;
 
-  overflow: hidden;
+  height: 100%;
 
 
   background: linear-gradient(180deg, #190131 0%, #282B96 100%);
@@ -85,7 +85,7 @@ h6 {
   max-width: 1216px;
   width: 100%;
   margin: 0 auto;
-  margin-top: 114px;
+  padding-top: 114px;
 
 
 }
@@ -94,7 +94,7 @@ h6 {
   max-width: 1216px;
   width: 100%;
   margin: 0 auto;
-  margin-top: 66px;
+  padding-top: 66px;
 
 
 
