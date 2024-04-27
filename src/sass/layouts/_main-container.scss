@@ -1,0 +1,27 @@
+.main-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/images/background-desktop.svg);
+    background-position: center center;
+    background-size: cover;
+
+    @media only screen and (max-width: 1270px) {
+
+        padding: 0 43px;
+    }
+
+    @media only screen and (max-width: 768px) {
+        background-image: url(../../assets/images/background-tablet.svg);
+
+    }
+
+    @media only screen and (max-width: 375px) {
+        background-image: url(../../assets/images/background-mobile.svg);
+    }
+
+    @media only screen and (max-width: 600px) {
+        padding: 0 26px;
+
+
+    }
+}
